@@ -19,6 +19,7 @@ echo "Arquivo /tmp/Nicolas existe."
 }
 else {
 echo "Arquivo /tmp/Nicolas não existe."
+mkdir /tmp/Nicolas
 }
 fi
 
@@ -28,6 +29,7 @@ echo "Arquivo /tmp/Nicolas/nicolas.txt existe."
 }
 else {
 echo "Arquivo /tmp/Nicolas/nicolas.txt não existe."
+touch /tmp/Nicolas/nicolas.txt
 }
 fi
 
